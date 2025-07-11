@@ -50,18 +50,52 @@ div h1{
     padding-top: 150px;
  }
 
- section{
-    display: flex;
+.action-container{
+   display: flex;
     justify-content: space-between;
     GAP:auto;
-    padding-top:325PX;
-    padding-left: 141PX;
-    padding-right: 150PX;
+    padding:50px 150px;
     font-size: 1.5em;
-    font-family: fantasy;
+    font-family:fantasy;
 
  }
- .image{
-    border-radius: 50px;
+
+ .action-banner{
+    border-radius: 25px;
  }
  
+
+ .second{
+   padding: 15px 5px;
+   background-color: #dddcf9;width: 1140px;
+   border-radius: 20px;
+   max-width: 1200px;
+   margin: 15px 150px;
+ 
+
+   }
+
+  .second h2{
+   text-align: center;
+   font-family: fantasy;
+   font-size: 2.5em;
+  }
+ .number{
+   display: flex;
+   justify-content: space-around;
+   
+ }
+ 
+ .number h1{
+   color: #4E47FF;
+   font-size: 4em;
+ }
+ .number p{
+   color: rgb(65, 65, 65);
+   font-size: 2em;
+   
+ }
+ .second:hover{
+   background-color: #dddcf9;
+   cursor: pointer;
+ }
