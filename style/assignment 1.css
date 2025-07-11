@@ -109,6 +109,7 @@ div h1{
    margin-top: 10px;
    display: flex;
    gap: 24px;
+   width:700px;
    
  }
  .feedback{
@@ -174,4 +175,26 @@ input{
    color: white;
    padding:20px 165px;
    border-radius: 10px;
+}
+
+.pera-align{
+   text-align: center;
+}
+
+footer{
+   width: 550px;
+   align-items: center;
+   margin: 0 auto;
+   background-color: #f8f6f3;
+   width: 100%;
+  }
+.footer-item{
+   display: flex;
+   justify-content: space-around;
+}
+footer h1{
+   color:#4E47FF;
+}
+.pera-align, .footer-item{
+color: #8987A1;
 }
