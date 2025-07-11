@@ -22,7 +22,7 @@ nav{
    
 }
 nav h2{
-    font-weight: bolder;
+    font-weight: bold;
 }
 nav button{
            width: 95px;
@@ -40,7 +40,7 @@ div h1{
     font-family:sans-serif;
 }
  .center-button{
-    padding-left: 900px;
+    padding-left: 650px;
     
  }
  div button{
