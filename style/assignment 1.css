@@ -36,7 +36,7 @@ div h1{
     font-family:sans-serif;
 }
  .center-button{
-    padding-left: 720px;
+    padding-left: 800px;
     
  }
  div button{
@@ -134,4 +134,44 @@ div h1{
 }
 .wc-big{
    border-radius: 50px;
+}
+label,textarea{
+   display: block;
+   border-radius: 8px;
+   padding: 10px;
+   border: none;
+}
+textarea{
+   background-color: #f8f6f3;
+}
+.form-title{
+   font-family: fantasy;
+   font-weight: bold;
+   font-size: 6em;
+   padding-left: 150px;
+   padding-top:100px ;
+   padding-bottom: 200px;
+}
+.form-container{
+   display: flex;
+   justify-content: space-between;
+   padding: 150px;
+}
+form{
+   flex-direction: column;
+   gap: 15px;
+   padding-top: 71px;
+   padding-bottom: 71px;
+}
+input{
+   padding:15px 200px 15px 5px;
+   border: none;
+   background-color: #f8f6f3;
+   border-radius: 10px;
+}
+.submit{
+   background-color: #4E47FF;
+   color: white;
+   padding:20px 165px;
+   border-radius: 10px;
 }
